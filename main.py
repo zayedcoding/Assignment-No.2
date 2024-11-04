@@ -2,8 +2,8 @@ def main():
     """Main function to demonstrate the e-bookstore system functionality."""
 
     # Create EBook instances
-    ebook1 = EBook("101 Python", "Zayed Ali", "2021-01-01", "Programming", 29.99, "ISBN12345")
-    ebook2 = EBook("102 Python", "Sarah Ali", "2022-02-01", "Programming", 39.99, "ISBN67890")
+    ebook1 = EBook("101 Py", "Zayed Zayed", "2021-01-01", "Programming", 29.99, "ISBN12345")
+    ebook2 = EBook("102 Py", "Ali Zayed", "2022-02-01", "Programming", 39.99, "ISBN67890")
 
     # Create and display Catalog
     catalog = Catalog()
@@ -12,7 +12,7 @@ def main():
     print(catalog)
 
     # Create Customer instance
-    customer = Customer(1, "Alice", "alice@example.com", True)
+    customer = Customer(1, "Zayed", "zayed@example.com", True)
     print(customer)
 
     # Create ShoppingCart and add items
